@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "crosshairlite",
+  "version": "${version}",
+  "name": "Better Crosshairlite",
+  "description": "A highly customizable crosshair mod, with automatic centering and an import function.",
+  "icon": "assets/crosshairlite/icon.png",
+  "environment": "client",
+  "license": "MIT",
+  "authors": [
+    "marsh"
+  ],
+  "entrypoints": {
+    "client": [
+      "dev.crosshairlite.CrosshairLite"
+    ],
+    "modmenu": [
+      "dev.crosshairlite.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "crosshairlite.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "dev.crosshairlite.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "InGameHudMixin",
+    "ShieldSoundMixin",
+    "glass.accessor.DrawContextAccessor",
+    "glass.accessor.GameRendererAccessor",
+    "glass.accessor.GuiRendererAccessor",
+    "glass.accessor.GuiRenderStateAccessor",
+    "glass.client.GuiRendererMixin",
+    "glass.widgets.GuiRendererMixin",
+    "glass.logical.GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
